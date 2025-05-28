@@ -1,0 +1,19 @@
+cabal-version:       3.0
+name:                quiz-juliao
+version:             0.1.0.0
+license:             NONE
+author:              Bomba
+maintainer:          none@example.com
+build-type:          Simple
+
+executable quiz
+    main-is:          Main.hs
+    other-modules:    Modelo, Logica
+    build-depends:    base >= 4.7 && < 5,
+                    ansi-terminal >= 0.11,
+                    random >= 1.2,
+                    directory,
+                    random-shuffle
+
+    hs-source-dirs:   .
+    default-language: Haskell2010
