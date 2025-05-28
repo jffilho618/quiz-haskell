@@ -1,3 +1,4 @@
 HighScore {nomeJogador = "Dara", pontuacaoFinal = 10, premioFinal = 1000000}
 HighScore {nomeJogador = "Kely", pontuacaoFinal = 5, premioFinal = 2000}
 HighScore {nomeJogador = "Bomba", pontuacaoFinal = 1, premioFinal = 0}
+HighScore {nomeJogador = "Bela", pontuacaoFinal = 0, premioFinal = 0}

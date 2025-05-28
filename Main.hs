@@ -584,7 +584,7 @@ registrarHighScore estado = do
     -- Verifica se a pontuação atual qualifica para o Top 10
     if length (highScores estado) < 10 || null pioresScores || pontuacaoAtual > pontuacaoFinal (head pioresScores)
         then do
-            limparTela
+            --limparTela
             exibirTitulo "NOVO RECORDE!"
             mensagemInfo $ "Sua pontuação de " ++ show pontuacaoAtual ++ " (Prêmio: R$" ++ show premioAtual ++ ") entrou para o Top 10!"
             let novoScore = HighScore nomeAtual pontuacaoAtual premioAtual
