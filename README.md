@@ -204,7 +204,7 @@ O projeto utiliza as seguintes bibliotecas Haskell (especificadas em `quiz-julia
 
 ## Autores
 
-- **Bomba** (mantenedor, conforme especificado em `quiz-juliao.cabal`)
+- **João Batista** (mantenedor, conforme especificado em `quiz-juliao.cabal`)
 
 ## Licença
 
